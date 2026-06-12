@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 # Per-job environment setup: installs vLLM (nightly cu128 wheels) + LMCache from source.
 # Called at the start of every CI job.
 set -euo pipefail
