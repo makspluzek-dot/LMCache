@@ -1,25 +1,23 @@
-
-
 name: "free-disk-space"
 description: "Action that frees disk space (placeholder composite action)."
 author: "LMCache Maintainer"
 inputs:
-	keep_bytes:
-		description: "Number of bytes to keep free (not enforced in placeholder)."
-		required: false
-		default: "0"
+  keep_bytes:
+    description: "Number of bytes to keep free (not enforced in placeholder)."
+    required: false
+    default: "0"
 
 runs:
-	using: "composite"
-	steps:
-		- name: Print intent
-			shell: bash
-			run: |
-				echo "This action is a placeholder for freeing disk space."
-				echo "Requested keep_bytes: ${{ inputs.keep_bytes }}"
+  using: "composite"
+  steps:
+    - name: Print intent
+      shell: bash
+      run: |
+        echo "This action is a placeholder for freeing disk space."
+        echo "Requested keep_bytes: ${{ inputs.keep_bytes }}"
 
 branding:
-	icon: "trash"
-	color: "orange"
-  
+  icon: "trash"
+  color: "orange"
+
 
