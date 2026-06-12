@@ -14,3 +14,6 @@ steps:
 
     artifact_paths:
       - "build_${BUILDKITE_BUILD_ID}.log"
+      .buildkite/correctness/pipeline.correctness.yml.
+      .buildkite/correctness/pipeline.correctness.yml.
+      
